@@ -1,0 +1,49 @@
+#startGame {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+    transition: 0.3s;
+}
+
+#startGame:hover {
+    box-shadow: 0 0 20px #0f0, 0 0 30px #0f0, 0 0 40px #0f0;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.game-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.scoreboard {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
