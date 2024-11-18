@@ -1,0 +1,7 @@
+{
+    "name": "Tonconnect Test App",
+    "short_name": "TONCONN",
+    "description": "this is a test application for the ton connect UI",
+    "url": "http://localhost:5176",
+    "iconUrl": "http://localhost:5176/ball.svg"
+}
